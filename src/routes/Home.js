@@ -1,10 +1,10 @@
 import { h, Component } from 'preact';
-import style from './style';
+import styled from 'styled-components';
 
 export default class Home extends Component {
 	render() {
 		return (
-			<div class={style.home}>
+			<div>
 				<h1>Home</h1>
 				<p>This is the Home component.</p>
 			</div>
