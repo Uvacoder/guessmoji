@@ -3,11 +3,42 @@
     "emojis": ["👨‍🍳", "🍗", "🔥", "🚗"],
     "answer": "Guy Fieri",
     "options": [
-      "Bobby Flay",
-      "Gordon Ramsay",
-      "Test2",
-      "Test3",
-      "Test4"
+      "Bobby Flayqweqwe"
+    ]
+  },
+  {
+    "emojis": ["👨‍🍳", "🍗", "🔥", "🚗"],
+    "answer": "qwer",
+    "options": [
+      "Bobby Flayyuityuity"
+    ]
+  },
+  {
+    "emojis": ["👨‍🍳", "🍗", "🔥", "🚗"],
+    "answer": "Guy Fieris",
+    "options": [
+      "Bobby Flay`123`123`123"
+    ]
+  },
+  {
+    "emojis": ["👨‍🍳", "🍗", "🔥", "🚗"],
+    "answer": "Guy Fieriss",
+    "options": [
+      "Bobby Flaypop[op[op["
+    ]
+  },
+  {
+    "emojis": ["👨‍🍳", "🍗", "🔥", "🚗"],
+    "answer": "Guy Fierisss",
+    "options": [
+      "Bobby Flayxcvbvcbvc"
+    ]
+  },
+  {
+    "emojis": ["👨‍🍳", "🍗", "🔥", "🚗"],
+    "answer": "Guy Fierissss",
+    "options": [
+      "Bobby Flaygdsfg"
     ]
   }
 ]

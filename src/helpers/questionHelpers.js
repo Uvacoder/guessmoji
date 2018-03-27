@@ -20,8 +20,7 @@ function createIncorrectChoices(array){
   return incorrectChoices
 }
 
-function shuffleChoices(array){
-  const shuffledChoices = [];
+export function shuffleChoices(array){
   let counter = array.length;
   //If elements still exist in original array
   while(counter > 0) {
