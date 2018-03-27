@@ -1,7 +1,7 @@
 import { h, Component } from 'preact';
 import styled from 'styled-components';
 
-import AnswerContainer from '../components/answers/AnswerContainer';
+import AnswerContainer from '../containers/AnswerContainer';
 import Score from '../components/shared/Score';
 
 export default class Home extends Component {
@@ -12,11 +12,12 @@ export default class Home extends Component {
 	}
 
 	state = {
-		score: 0
+		score: 0,
+		questionsAsked: [],
+		currentQuestion: 0
 	}
 
 	checkAnswer = (userGuess) => {
-		console.log(`checking guess...${userGuess}`)
 		if(userGuess) {
 			this.addScore();
 		} else {
