@@ -7,9 +7,7 @@ export default class Answer extends Component {
     const { isAnswer } = this.props;
 
     return (
-      <button
-        onClick={() => this.props.checkAnswer(isAnswer)}
-      >
+      <button onClick={() => this.props.checkAnswer(isAnswer)}>
         {this.props.text}
       </button>
     );

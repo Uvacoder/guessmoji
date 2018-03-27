@@ -1,5 +1,8 @@
 import { h, Component } from 'preact';
+
 import Answer from '../components/QuizContainer/Answer';
+import Question from '../components/QuizContainer/Question';
+import Choices from '../components/QuizContainer/Choices';
 
 import styled from 'styled-components';
 
@@ -31,7 +34,8 @@ export default class QuizContainer extends Component {
   }
 
   render() {
-    const rawChoices = createOptionsFromObject(this.state.currentQuestion);
+    const currentQuestion = this.state.currentQuestion;
+    const rawChoices = createOptionsFromObject(currentQuestion);
 
     const choices = rawChoices.map((choice) =>
       <Answer
@@ -43,7 +47,12 @@ export default class QuizContainer extends Component {
 
     return (
       <div>
-        {choices}
+        <Question
+          emojis={currentQuestion.emojis}
+        />
+        <Choices
+          choices={choices}
+        />
       </div>
     );
   }

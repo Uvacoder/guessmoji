@@ -60,7 +60,6 @@ export default class Home extends Component {
 				<Score
 					score={this.state.score}
 				/>
-				<p>Did this work?</p>
 				<QuizContainer
 					celebrities={this.state.celebrities}
 					currentQuestionIndex={this.state.currentQuestionIndex}
