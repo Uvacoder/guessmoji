@@ -3,12 +3,21 @@ import { Router } from 'preact-router';
 
 import Header from './shared/Header';
 import Home from '../routes/Home';
+
+// Cleanly adding a global CSS reset
+import { injectGlobal } from 'styled-components';
+import { reset } from '../styles/reset';
+
 // import Home from 'async!../routes/home';
 // import Profile from 'async!../routes/profile';
 
 if (module.hot) {
 	require('preact/debug');
 }
+
+injectGlobal`
+	${reset}
+`;
 
 export default class App extends Component {
 	/** Gets fired when the route changes.
