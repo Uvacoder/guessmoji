@@ -1,5 +1,5 @@
 import { h, Component } from 'preact';
-import Answer from '../components/AnswerContainer/Answer';
+import Answer from '../components/QuizContainer/Answer';
 
 import styled from 'styled-components';
 
@@ -7,7 +7,7 @@ import celebrities from '../data/celebrities.json';
 
 import { createOptionsFromObject } from '../helpers/questionHelpers';
 
-export default class AnswerContainer extends Component {
+export default class QuizContainer extends Component {
 
   render() {
     const rawChoices = createOptionsFromObject(celebrities[0]);

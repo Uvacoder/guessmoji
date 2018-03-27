@@ -1,7 +1,7 @@
 import { h, Component } from 'preact';
 import styled from 'styled-components';
 
-import AnswerContainer from '../containers/AnswerContainer';
+import QuizContainer from '../containers/QuizContainer';
 import Score from '../components/shared/Score';
 
 export default class Home extends Component {
@@ -44,7 +44,7 @@ export default class Home extends Component {
 				<Score
 					score={this.state.score}
 				/>
-				<AnswerContainer
+				<QuizContainer
 					addScore={this.addScore}
 					checkAnswer={this.checkAnswer}
 				/>
