@@ -26,6 +26,7 @@ export const reset = `
   }
   body {
     line-height: 1;
+    font-size: 62.5%;
   }
   ol, ul {
     list-style: none;
