@@ -4,18 +4,15 @@ import { h, Component } from 'preact';
 import styled from 'styled-components';
 
 const Title = styled.h1`
-  font-size: 1em;
+	font-size: 2.5rem;
+	padding-top: 1rem;
 	text-align: center;
-	color: palevioletred;
-	background-color: tomato;
 `;
 
 export default class Header extends Component {
 	render() {
 		return (
-			<Title>
-				<h1>Guessmoji 😃</h1>
-			</Title>
+			<Title>Guessmoji 😃</Title>
 		);
 	}
 }
